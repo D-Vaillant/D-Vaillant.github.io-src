@@ -4,9 +4,25 @@ from __future__ import unicode_literals
 
 AUTHOR = 'D. Vaillant'
 SITENAME = 'vaillant.io'
+SITETITLE = 'vaillant.io'
+SITESUBTITLE = 'A sequence of writings by D. Vaillant.'
 SITEURL = ''
+SITELOGO = SITEURL + '/images/profile.png'
+# FAVICON = SITEURL + '/images/favicon.ico'
+
+ROBOTS = 'index, follow'
+CC_LICENSE = {
+        'name': 'Creative Commons Attribution-ShareAlike',
+        'version': '4.0',
+        'slug': 'by-sa'
+}
+
+COPYRIGHT_YEAR = 2017
+
+SITEURL = 'D-Vaillant.github.io'  # can do redirect to vaillant.io
 
 PATH = 'content'
+THEME = 'Flex'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -20,14 +36,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = tuple()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = tuple()
 
 DEFAULT_PAGINATION = 7
 

@@ -4,7 +4,7 @@ Tags: python, modelling
 Category: python
 Slug: ovens-conveyers-queues
 Author: D. Vaillant
-Summary: Simple modelling with Python.
+Summary: Simple modelling, prior to Python.
 
 A dear friend of mine pointed me towards the simple model that is the namesake of this post: ovens, conveyers, and queues. We define some terms first:
 
@@ -18,10 +18,10 @@ All objects of our model have a central idea: they take in elements from one end
 To faciliate this model we add on several abstract objects which can be easily replaced with other systems. 
 
 ## Queues 
-A queue is just the CS 101 concept: it has a `enqueue` and `dequeue` methods which take in elements and then releases elements in the same order as they were taken in. The physical analogue is, well, a queue (or "line").
+A queue is just the CS 101 concept: it has a `enqueue` and `dequeue` methods which take in elements and then releases elements in the same order as they were taken in. The physical analogue is a queue (or "line").
 
 ## Conveyers
-The physical analogue here is a conveyer belt. Elements are placed on the conveyer belt and take a certain number of steps, ticks, seconds, units-of-time to get to the next element. After a certain number of steps on the conveyer belt, an element is moved to the output object.
+The physical analogue here is a conveyer belt. Elements are placed on the conveyer belt and take a certain number of steps, ticks, seconds, units-of-time to get to the next object. After a certain number of steps on the conveyer belt, an element is moved to the output object.
 
 Conveyers have no limit to the amount of elements that can be placed on them, although we can choose to implement a *piecewise capacity* - that is, each "space" in a conveyer belt can have up to **n** objects on it at any given time.
 

@@ -17,12 +17,13 @@ CC_LICENSE = {
         'slug': 'by-sa'
 }
 
-COPYRIGHT_YEAR = 2017
+COPYRIGHT_YEAR = 2018
 
 SITEURL = 'D-Vaillant.github.io'  # can do redirect to vaillant.io
 
 PATH = 'content'
-THEME = 'Flex'
+THEME = 'themes/Flex'
+READERS = {'html': None}
 
 TIMEZONE = 'America/Los_Angeles'
 

@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'd-vaillant.github.io'
+SITEURL = ''
+# SITEURL = 'd-vaillant.github.io'
 # SITEURL = 'http://vaillant.io'
 RELATIVE_URLS = False
 

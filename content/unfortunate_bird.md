@@ -36,10 +36,10 @@ The hyena was clearly losing the thread here and Phil jumped in. “What my coll
 
 And so the ostrich departed the office firm. It would resort to digging through the  canyon refuse to survive that night and possibly the next. What adventures lie in wait for our brave ostrich? We may never know.		
 
-[^1] Ostriches do, in fact, hide their heads in the sand at night. Any suggestion to the contrary is an attempt to crush the magic and wonder out of life.
+[^1]: Ostriches do, in fact, hide their heads in the sand at night. Any suggestion to the contrary is an attempt to crush the magic and wonder out of life.
 
-[^2] Its work was a bit juvenile, its beliefs a bit misshaped, and its proclivity towards shock was more motivated by titillation than principles.
+[^2]: Its work was a bit juvenile, its beliefs a bit misshaped, and its proclivity towards shock was more motivated by titillation than principles.
 
-[^3] At the risk of threatening my position as the objective omnipotent third-person voice: It is absolutely unclear why the ostrich thought that this was the correct thing to say. Its work was utterly obscure and relied on far too many layers of misdirection and irony in order to deliver a single, uninspired message: "Corporate life is bad and sad." 
+[^3]: At the risk of threatening my position as the objective omnipotent third-person voice: It is absolutely unclear why the ostrich thought that this was the correct thing to say. Its work was utterly obscure and relied on far too many layers of misdirection and irony in order to deliver a single, uninspired message: "Corporate life is bad and sad." 
 
-[^4] “Namaste”, in this context, meaning “Get the fuck out here.”
+[^4]: “Namaste”, in this context, meaning “Get the fuck out here.”

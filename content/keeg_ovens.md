@@ -1,10 +1,11 @@
 Title: Ovens and Conveyors, Pt. 1
 Date: 2018-10-16
-Tags: python, modelling
+Tags: python, modeling
 Category: python
 Slug: ovens-conveyors
 Author: D. Vaillant
 Summary: Simple modelling, prior to Python.
+Status: draft
 
 A dear friend of mine pointed me towards the simple model that is the namesake of this post: ovens and conveyors. We define some terms first:
 

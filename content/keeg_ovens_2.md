@@ -1,12 +1,13 @@
 Title: Ovens and Conveyors, Pt. 2
 Date: 2018-12-02
-Tags: python, modelling
-Category: python
+Tags: python, modeling
+Category: python, data structures
 Slug: ovens-conveyers-2
 Author: D. Vaillant
-Summary: Simple modelling with Python.
+Summary: More discussion of models. Still prior to Python.
+Status: draft
 
-We continue our discussion from [last time]({filename}keeg_ovens.md) with some implementations. Control your excitement, folks. 
+We continue our discussion from [last time]({filename}keeg_ovens.md) with some implementation details. Control your excitement, folks. 
 
 # Terminology Reference
 - Machine: Ovens, conveyors, and the abstract machines (pits, voids, and the various sources)
@@ -27,7 +28,9 @@ This is a big one. We care about the identities and the properties of our elemen
 
 If we jettison this assumption we would have blank units who only have properties in relation to whatever machine they happen to occupy. As such, any collection of elements is representable by a natural number. There's "2 people", not "Timothy and Janet, a bickering old couple". This could be a property of whatever machine they're a part of. The advantage here would just be less overhead since instead of tracking 100 different Element instances you just have "100".
 
-And then, a hybrid solution: we can have `MultipleElements` where each instance corresponds to multiple elements. We'll go this route because it's the best of both worlds: each instance is a "wrapper" around a number of elements which all have identical properties. All of our golf clubs in a particular batch, for example. The `Element` class then becomes a subclass since it's just the case where the number of elements is 1.
+And then, a hybrid solution: we can have `MultipleElements` where each instance corresponds to multiple elements. Each instance is a "wrapper" around a number of elements which all have identical properties. All of our golf clubs in a particular batch, for example. The `Element` class then becomes a subclass since it's just the case where the number of elements is 1. But we run into annoyances when it comes to the consolidation and breaking up: if we want to take 3 elements from a `MultipleElement` then we need to make another one and mutate the previous one.
+
+We're going to just use Elements here, for the sake of simplicity.
 
 ## The Capacity of Conveyors
 Conveyors might be infinite and hold elements for an infinite length of time. This is accomplished by having the initial stage, where elements go right after the previous machine, have an infinite piecewise capacity.  We can imagine a supermarket line getting quite long, but as long as everyone stays in the line (and is patient) eventually everyone will get checked out and head home. If the initial stage is finite then we might end up with some locking up if too many elements are introduced at once but as long as at least one stage is infinite then eventually we can solve that locking.

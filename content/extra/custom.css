@@ -1,0 +1,11 @@
+.hero.is-primary {
+    background-color: #1b43bb
+}
+
+.hero.is-primary .navbar-link.is-active, .hero.is-primary .navbar-link:hover, .hero.is-primary a.navbar-item.is-active, .hero.is-primary a.navbar-item:hover {
+    background-color: #2b53cb
+}
+
+.card-content a h3 {
+    color: #1b43bb
+}
